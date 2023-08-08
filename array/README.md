@@ -16,7 +16,7 @@ index 로 문제를 접근하는 유형이며 BackTracking과 DP 문제와 함�
 
 ### Binary Search 
 배열이 **정렬되어있을 때** 사용할 수 있는 방법으로 
-* time complexity 는 **O(logN)**이다.
+* time complexity 는 **O(logN)** 이다.
 * left / right , pivot 으로 찾아가는 방법으로
   * arr[pivot]과 target 값 비교 후 left를 pivot+1 혹은 right를 pivot-1로 옮기는 과정을 통해 진행한다.
   * 종료 조건은 left와 right의 크기 비교로 한다. while(left<=right) 
