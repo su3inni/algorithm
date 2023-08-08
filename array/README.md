@@ -12,7 +12,7 @@ index 로 문제를 접근하는 유형이며 BackTracking과 DP 문제와 함�
   * NO > Unstable : quick , heap sort
  
 ### Search 
-* time complexity 는** O(n)** 으로 하나하나 확인하는 방법이며
+* time complexity 는 **O(n)** 으로 하나하나 확인하는 방법이며
 
 ### Binary Search 
 배열이 **정렬되어있을 때** 사용할 수 있는 방법으로 
