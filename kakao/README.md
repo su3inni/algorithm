@@ -22,4 +22,5 @@
     #작은 값들의 배수일 때 발생하는 중복을 제거하며 확인(소수 찾기 최적화)
 
 ### 2018 KAKAO BLIND RECRUITMENT [3차] 압축 > zip.py 
++ D = {chr(i) : i-64 for i in range(65,91)}
 + start, end 포인터 두개로 진행하기
