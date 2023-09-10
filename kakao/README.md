@@ -24,3 +24,10 @@
 ### 2018 KAKAO BLIND RECRUITMENT [3차] 압축 > zip.py 
 + D = {chr(i) : i-64 for i in range(65,91)}
 + start, end 포인터 두개로 진행하기
+
+### 2022 KAKAO BLIND RECRUITMENT 주차 요금 계산 > stack_fee.py 
+* stack 같은 문제를 풀 때 주의할 점
+  * 반복해서 실행하는 경우에 대한 고려를 필수적으로 하기
+    * 틀렸던 부분 확인 
+* 딕셔너리 정렬 방법
+* 딕셔너리 삭제 방법 
