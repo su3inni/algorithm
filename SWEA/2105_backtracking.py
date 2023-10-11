@@ -9,7 +9,7 @@ def checkrange(x, y):
     return False
 
 def dfs(x, y, d, cnt):
-    global si, sj, dessert, visited, max_dessert
+    global si, sj, dessert, max_dessert
     # 종료조건
     # 원점으로 돌아오고 사각형 만들었을 때
     if x == si and y == sj and cnt == 4:
@@ -23,7 +23,6 @@ def dfs(x, y, d, cnt):
         if checkrange(nx, ny) and arr[nx][ny] not in dessert:
             dessert.append(arr[nx][ny])
             cnt += i
-
             dfs(nx, ny, nd, cnt)
             idx = dessert.index(arr[nx][ny])
             dessert.pop(idx)
@@ -38,7 +37,6 @@ for tc in range(T):
         for sj in range(N):
             cnt=1
             dessert=[]
-            visited=[[0 for _ in range(N)] for _ in range(N)]
             dfs(si,sj,1,cnt)
             # print(dessert)
 
