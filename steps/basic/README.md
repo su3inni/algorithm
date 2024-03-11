@@ -4,4 +4,4 @@
 
 ### 2. 빠른 입력을 받아야하는 경우 
 + T번 반복하는데 최대 1,000,000 이라면
-  + input()대신 **sys.stdin.readline()**을 사용한다. 
+  + input()대신 **sys.stdin.readline()** 을 사용한다. 
