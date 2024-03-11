@@ -6,3 +6,6 @@
 + T번 반복하는데 최대 1,000,000 이라면
   + input()대신 **sys.stdin.readline()** 을 사용한다. 
     > [sys.stdin.readline 사용법 참고](https://velog.io/@yeseolee/Python-파이썬-입력-정리sys.stdin.readline)  
+
+### 3. 배열을 정렬이 아닌 뒤집는 경우 
++ arr[::-1] 
