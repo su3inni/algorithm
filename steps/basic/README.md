@@ -19,6 +19,8 @@
 + 특정 조건의 수가 **홀수인 경우와 짝수인 경우** 고려하기
 
 ### 6. 배열의 크기가 너무 클때 
-+ Two Pointer 방법 고려해보기
++ **Two Pointer** 방법 고려해보기
   + 배열 정렬 후 > python정렬 시간복잡도 O(NlogN)
+    > [정렬 알고리즘 개념 정리](https://github.com/su3inni/algorithm/issues/3#issuecomment-1753235209)
   + left, right 인덱스로 조절하며 O(n)으로 문제해결하기
+
