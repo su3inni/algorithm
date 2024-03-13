@@ -24,3 +24,7 @@
     > [정렬 알고리즘 개념 정리](https://github.com/su3inni/algorithm/issues/3#issuecomment-1753235209)
   + left, right 인덱스로 조절하며 O(n)으로 문제해결하기
 
+### 7. str 입력의 길이가 1,000,000 일때 O(N)의 방법으로 해결하기 
++ for 문 내에 python list insert 가 들어가면 O(N**2)의 시간 복잡도가 발생한다.
+  + 입력을 기준에 따라 나누어서 배열에 넣는 방법 고려하기 left, right 
++ list extend, reversed 방법 익히기
