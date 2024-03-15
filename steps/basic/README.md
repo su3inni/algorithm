@@ -3,7 +3,7 @@
 + A<B , A>B , **A==B** 인 경우 모두 고려했는지 다시 한 번 확인하기
 
 ### 2. 빠른 입력을 받아야하는 경우
-[ input과 sys.stdin.readline 비교 ](https://github.com/su3inni/algorithm/issues/5)
++ [ input과 sys.stdin.readline 비교 ](https://github.com/su3inni/algorithm/issues/5)
 + 예를 들어, T번 반복하는데 최대 1,000,000 이라면
   + input()대신 **sys.stdin.readline()** 을 사용한다. 
     > [sys.stdin.readline 사용법 참고](https://velog.io/@yeseolee/Python-파이썬-입력-정리sys.stdin.readline)
