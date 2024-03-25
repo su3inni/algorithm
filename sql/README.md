@@ -8,4 +8,7 @@
    + '%Y-%M-%D' 하면 또 다른 포맷 나오니까 잘 맞추기
 
 ### 3. Null 값 대체하기 
-+ IFNULL(<col>,'대체값')
++ IFNULL(<col#1>,'대체값')
+
+### 4. Null 값 찾기 
++ WHERE <COL#1> IS NULL
