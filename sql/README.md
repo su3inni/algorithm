@@ -6,3 +6,6 @@
 ### 2. date format 
 + DATE_FORMAT(<col>, '%Y-%m-%d') AS <col>
    + '%Y-%M-%D' 하면 또 다른 포맷 나오니까 잘 맞추기
+
+### 3. Null 값 대체하기 
++ IFNULL(<col>,'대체값')
