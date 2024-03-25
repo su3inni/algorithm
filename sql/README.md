@@ -12,3 +12,8 @@
 
 ### 4. Null 값 찾기 
 + WHERE <COL#1> IS NULL
+
+### 5. JOIN 
++ FROM <TABLE#1> A
+   INNER JOIN <TABLE#2> B ON A.COL#1 = B.COL#1
+  > table 1을 A라고 하고, table 2는 B라고 하고 col#1을 기준으로 join 한다
