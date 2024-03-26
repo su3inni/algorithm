@@ -22,3 +22,7 @@
 + ROUND(COL,2)
   > 3째자리에서 반올림하는 구문
 + AVG(<col>)
+
+### 7. WHERE절에 SELECT문 있는 서브쿼리 
+ex. WHERE ITEM_ID NOT IN ( SELECT PARENT_ITEM_ID 
+                     FROM ITEM_TREE WHERE NOT PARENT_ITEM_ID IS NULL) 
